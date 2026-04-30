@@ -12,7 +12,7 @@ import './assets/index.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/basszhattyuk">
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />
