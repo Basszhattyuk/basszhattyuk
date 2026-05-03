@@ -9,6 +9,13 @@ const BasszButton = styled(Button)<BasszButtonProps>({
   '&:hover': {
     backgroundColor: '#a30101',
   },
+  '&.Mui-disabled': {
+    backgroundColor: '#bdbdbd',
+    color: '#fff',
+  },
+  '&.Mui-disabled:hover': {
+    backgroundColor: '#bdbdbd',
+  },
 });
 
 export default BasszButton;

@@ -16,10 +16,10 @@ export default function MainPage() {
         <BasszButton variant="contained" onClick={() => navigate('/szabalyzatok')}>
           MINDEN FONTOS DOLOG!
         </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/city-tour')}>
+        <BasszButton variant="contained" onClick={() => navigate('/city-tour')} disabled={true}>
           City-Tour
         </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/klan-tour')}>
+        <BasszButton variant="contained" onClick={() => navigate('/klan-tour')} disabled={true}>
           Klán-Tour
         </BasszButton>
         <BasszButton variant="contained" onClick={() => navigate('/elerhetosegek')}>
@@ -31,23 +31,6 @@ export default function MainPage() {
         <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')} disabled={true}>
           Pólók és hoodiek
         </BasszButton>
-        {/*
-        <BasszButton variant="contained" onClick={() => navigate('/kabanna')} disabled={true}>
-          Kabanna
-        </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/roadmap')} disabled={true}>
-          RoadMap
-        </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/city-tour')} disabled={true}>
-          City-Tour
-        </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/klan-tour')} disabled={true}>
-          Klán-Tour
-        </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/szabalyzatok')} disabled={true}>
-          Szabályzatok programokra
-        </BasszButton>
-        */}
       </Stack>
     </Box>
   );
