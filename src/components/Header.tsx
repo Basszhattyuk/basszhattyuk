@@ -4,7 +4,7 @@ import logo from '../assets/hattyu_piros_filled.png';
 export default function Header() {
   return (
     <Box component="header" sx={{ py: 3, mt: 'auto', backgroundColor: '#f5f5f5', marginBottom: 5 }}>
-      <Link href="/basszhattyuk/">
+      <Link href="/">
         <Box
           component="img"
           src={logo}
