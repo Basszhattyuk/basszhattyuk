@@ -10,19 +10,26 @@ export default function MainPage() {
   return (
     <Box sx={{ p: isMobile ? 2 : 4, pt: 0, maxWidth: 800, margin: '0 auto' }}>
       <Stack spacing={3}>
-        <BasszButton variant="contained" onClick={() => navigate('/adatok')}>
-          Regisztráció és adatok
+        <BasszButton variant="contained" onClick={() => navigate('/roadmap')}>
+          RoadMap
         </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')}>
-          Pólók és hoodiek
+        <BasszButton variant="contained" onClick={() => navigate('/szabalyzatok')}>
+          MINDEN FONTOS DOLOG!
         </BasszButton>
-        {/*
-        <BasszButton variant="contained" onClick={() => navigate('/kabanna')} disabled={true}>
-          Csapatösszerázó (Kabanna)
+        <BasszButton variant="contained" onClick={() => navigate('/city-tour')}>
+          City-Tour
         </BasszButton>
-        */}
+        <BasszButton variant="contained" onClick={() => navigate('/klan-tour')}>
+          Klán-Tour
+        </BasszButton>
         <BasszButton variant="contained" onClick={() => navigate('/elerhetosegek')}>
           Elérhetőségek
+        </BasszButton>
+        <BasszButton variant="contained" onClick={() => navigate('/adatok')} disabled={true}>
+          Regisztráció és adatok
+        </BasszButton>
+        <BasszButton variant="contained" onClick={() => navigate('/polok-hoodie')} disabled={true}>
+          Pólók és hoodiek
         </BasszButton>
         {/*
         <BasszButton variant="contained" onClick={() => navigate('/kabanna')} disabled={true}>

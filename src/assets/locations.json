@@ -1,0 +1,23 @@
+[
+  { "name": "Főtér", "lat": 46.7694, "lng": 23.5899 },
+  { "name": "Város (Cluj-Napoca center)", "lat": 46.7712, "lng": 23.6236 },
+  { "name": "BBTE Park", "lat": 46.7685, "lng": 23.5728 },
+  { "name": "BBTE Park T4-es pálya", "lat": 46.7687, "lng": 23.5735 },
+  { "name": "Nexus Games", "lat": 46.7710, "lng": 23.5915 },
+  { "name": "Törökvágás", "lat": 46.7555, "lng": 23.5770 },
+  { "name": "BT Aréna", "lat": 46.7674, "lng": 23.5726 },
+  { "name": "BBTE Park Rugby pálya", "lat": 46.7692, "lng": 23.5715 },
+  { "name": "FSEGA Amfiteatrum 1", "lat": 46.7717, "lng": 23.5916 },
+  { "name": "Vasile Geleriu terem", "lat": 46.7705, "lng": 23.5750 },
+  { "name": "Club Transilvania", "lat": 46.7545, "lng": 23.5460 },
+  { "name": "VIBE OffSeason", "lat": 46.7700, "lng": 23.5850 },
+  { "name": "Planetárium", "lat": 46.7690, "lng": 23.5825 },
+  { "name": "BBTE Park Atlétika pálya", "lat": 46.7689, "lng": 23.5722 },
+  { "name": "BBTE Park uszoda", "lat": 46.7682, "lng": 23.5718 },
+  { "name": "Heltai Folk Kocsma", "lat": 46.7698, "lng": 23.5890 },
+  { "name": "La Terenuri", "lat": 46.7532, "lng": 23.5665 },
+  { "name": "Leul", "lat": 46.7702, "lng": 23.5895 },
+  { "name": "Gheorghe Roman pálya", "lat": 46.7680, "lng": 23.5745 },
+  { "name": "Törökvágás sátor", "lat": 46.7560, "lng": 23.5775 },
+  { "name": "Törökvágás bulisátor", "lat": 46.7558, "lng": 23.5778 }
+]
