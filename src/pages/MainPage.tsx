@@ -16,6 +16,9 @@ export default function MainPage() {
         <BasszButton variant="contained" onClick={() => navigate('/szabalyzatok')}>
           MINDEN FONTOS DOLOG!
         </BasszButton>
+        <BasszButton variant="contained" onClick={() => navigate('/rigmusok')}>
+          Rigmusok
+        </BasszButton>
         <BasszButton variant="contained" onClick={() => navigate('/city-tour')} disabled={true}>
           City-Tour
         </BasszButton>

@@ -28,14 +28,10 @@ export default function RoadMapPage() {
         RoadMap
       </Typography>
 
-      <Typography variant="h5" sx={{ mb: 3, textAlign: 'center' }}>
-        Hamarosan!
-      </Typography>
       <BasszButton
         component="a"
         href="https://docs.google.com/spreadsheets/d/14LyoL-GwDoo03pMQEeLKfFL6cEMGUZjziHylV2pRlRY/edit?usp=sharing"
         sx={{ display: 'block', mx: 'auto', mb: 4, textAlign: 'center' }}
-        disabled={true}
       >
         Táblázat
       </BasszButton>
