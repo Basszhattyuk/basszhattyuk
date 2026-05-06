@@ -14,7 +14,7 @@ export default function KlanTourPage() {
       </Typography>
       <BasszButton
         sx={{ mt: 2, display: 'flex', justifyContent: 'center' }}
-        href=""
+        href="https://drive.google.com"
         target="_blank"
         rel="noopener noreferrer"
         disabled={true}
