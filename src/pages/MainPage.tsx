@@ -19,10 +19,10 @@ export default function MainPage() {
         <BasszButton variant="contained" onClick={() => navigate('/rigmusok')}>
           Rigmusok
         </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/city-tour')} disabled={true}>
+        <BasszButton variant="contained" onClick={() => navigate('/city-tour')}>
           City-Tour
         </BasszButton>
-        <BasszButton variant="contained" onClick={() => navigate('/klan-tour')} disabled={true}>
+        <BasszButton variant="contained" onClick={() => navigate('/klan-tour')}>
           Klán-Tour
         </BasszButton>
         <BasszButton variant="contained" onClick={() => navigate('/elerhetosegek')}>
